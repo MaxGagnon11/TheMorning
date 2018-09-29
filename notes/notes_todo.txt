@@ -1,0 +1,17 @@
+Scripts
+	parse_feed
+		"Input single feed into database"
+	parse_opml
+		"Input entire list of feeds (opml) into database"
+TODO
+	entry_table
+	source_table
+	author_table
+		- Author has >1 source
+		- author has no source (blog)
+		- entry has >1 author
+		- what else belongs in table?	
+	
+Database Steps
+    1) Parse + Clean xml RSS/ATOM feed
+    2) Store entry, source, and author information into tables.    

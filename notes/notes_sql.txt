@@ -1,0 +1,39 @@
+CREATE DATABASE
+
+
+
+CREATE TABLE `ENTRY` (
+	`Title`	TEXT,
+	`Link`	TEXT,
+	`Desc`	TEXT
+);
+
+
+
+SQL Insert
+
+INSERT INTO Articles (Title, Link, Desc) VALUES('Test_Title', 'www.google.com', 'This is a description')
+
+
+
+SQL Delete
+
+DELETE FROM [database] WHERE [field]=['fieldValue']
+DELETE FROM Articles WHERE Title='Test_Title'
+
+
+
+SQL Update
+
+UPDATE [table] SET [field]=['NEWfieldValue'] WHERE [field]=['fieldValue']
+
+
+
+SQL: Retrieving Records: Select
+
+SELECT * FROM [table]
+
+SELECT * FROM [table] WHERE [field]=['fieldVal']
+
+SELECT * FROM [table] ORDER BY [field]
+
